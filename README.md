@@ -51,3 +51,12 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 
 **Target Variable**
 - `survival` : Survival (0 = No; 1 = Yes)
+
+**Description**
+
+In this introductory project, I have explored a subset of the RMS Titanic passenger manifest to determine which features best predict whether someone survived or did not survive. 
+To complete this project, I have implemented several conditional predictions.
+The technique applied in this project is a manual implementation of a simple machine learning model, the decision tree.
+ A decision tree splits a set of data into smaller and smaller groups (called nodes), by one feature at a time. Each time a subset of the data is split,
+ our predictions become more accurate if each of the resulting subgroups are more homogeneous (contain similar labels) than before. 
+ The advantage of having a computer do things for us is that it will be more exhaustive and more precise than our manual exploration above.
